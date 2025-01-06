@@ -1,0 +1,117 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Banner{
+  background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#heading{
+  text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(14, 13, 13);
+
+  }
+
+
+  h4 {
+    border: 2px solid #fc0303;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #f9f9f9;
+  }
+  
+
+.course-box {
+  border: 2px solid red;
+  padding: 5px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-list {
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+.box{
+  border: 3px solid #ff0800;
+  padding:20px ;
+  margin-bottom: 5px;
+  background-color:white ;
+  text-align:center ;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #1d4c8ee8;
+  color: white;
+  padding: 1rem;
+}
+
+nav menu {
+  display: flex;
+  flex-direction: column; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+nav menu li {
+  text-align: center;
+}
+
+nav menu li a {
+  text-decoration: none;
+  color: rgb(249, 246, 246);
+  padding: 0.75rem 1rem;
+  display: block;
+  background-color: #6f6d6b;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav menu li a:hover {
+  background-color: #fb1403;
+  
+}
+
+@media (min-width: 768px) {
+  nav menu {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  nav menu li {
+    text-align: left;
+  }
+
+  nav menu li a {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.img{
+  height: 100;
+  width: 200;
+  align-items: center;
+}
+
+.footer {
+  border-top: 1px solid #1d3d81;
+  margin: 20px 10px 10px 0;
+  padding-top: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
