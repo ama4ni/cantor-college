@@ -20,6 +20,9 @@ const Courses = () =>{
     return(
         <div>
             <h2 id="heading">Course List</h2>
+           
+            <div className="image"><img src="/Cantor2.jpg" alt="cantor2" /></div>
+           
             <div className= 'course-list'>
                 {courseData ? (courseData.map((course, index)=>(
                     <div className='course-box' key={index} >
