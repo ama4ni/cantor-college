@@ -8,8 +8,8 @@ const Welcome = () => {
         <div className="image">
           <img
             src="/logo.png" alt="Cantor College Logo"
-            width="150"
-            height="150"
+            width="400"
+            height="200"
           />
         </div>
       </header>

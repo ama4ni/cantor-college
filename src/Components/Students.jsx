@@ -7,11 +7,9 @@ const Students = () => {
         <h2 id="heading">Information for Students</h2>
         <div className="image">
           <img
-            src="/group.jpeg"
-            alt="Group of students collaborating"
-            loading="lazy"
-            width="600"
-            height="400"
+            src="/group.jpeg"alt="Group of students"
+            width="400"
+            height="200"
           />
         </div>
       </header>

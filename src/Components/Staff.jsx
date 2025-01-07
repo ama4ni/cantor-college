@@ -8,10 +8,9 @@ const Staff = () => {
         <div className="image">
           <img
             src="/Lab.jpg"
-            alt="Modern laboratory at Cantor College"
-            loading="lazy"
-            width="600"
-            height="400"
+            alt="lab at Cantor"
+            width="400"
+            height="200"
           />
         </div>
       </header>
