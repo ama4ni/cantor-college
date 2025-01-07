@@ -5,8 +5,8 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Welcome from './Components/Welcome'
 import Students from './Components/Students'
-import Staff from './Components/staff'
 import Courses from './Components/Courses'
+import Staff from './components/Staff'
 
 function App() {
 

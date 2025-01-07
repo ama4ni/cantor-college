@@ -66,8 +66,7 @@ const Welcome = () => {
         </p>
         <p>
           <a href="/business" aria-label="Learn more about business collaborations at Cantor College">
-            More information on our business page!
-          </a>
+            More information on our business page!</a>
         </p>
       </section>
     </main>
