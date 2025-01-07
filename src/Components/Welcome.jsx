@@ -7,9 +7,7 @@ const Welcome = () => {
         <h2 id="heading">Welcome to our College</h2>
         <div className="image">
           <img
-            src="/logo.png"
-            alt="Cantor College Logo"
-            loading="lazy"
+            src="/logo.png" alt="Cantor College Logo"
             width="150"
             height="150"
           />
